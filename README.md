@@ -18,7 +18,6 @@ This project aims to build a virtual IoT system that collects environmental info
 - Python 3.x
 - Paho MQTT Python client (`paho-mqtt`)
 - A ThingSpeak account with a channel set up for collecting environmental data
-- MATLAB (for analyzing and visualizing the data collected)
 
 ## Python Dependencies
 
