@@ -45,14 +45,14 @@ pip install paho-mqtt
 
 ### Data Collection and Publishing
 
-- Run the Python script to start collecting and publishing sensor data to ThingSpeak:
+- Run the Python script(Virtual_Environment_IoT_Station.py) to start collecting and publishing sensor data to ThingSpeak:
 
 ```bash
-python path/to/your_script.py
+python path/to/Virtual_Environment_IoT_Station.py
 ```
 
 ### Data Analysis and Display
 
-- Open Matlab Analysis for the channel on ThingSpeak and run the provided scripts to analyze and visualize the data collected from ThingSpeak:
-  - For displaying the latest data values, use the relevant section of the MATLAB code.
-  - For displaying data from the last five hours, use the provided MATLAB code snippet corresponding to this requirement.
+- Open Matlab Analysis for the channel on ThingSpeak and run the provided two scripts to analyze and visualize the data collected from ThingSpeak:
+  - For displaying the latest data values, use the relevant section of the MATLAB code. Run the Display_Latest_SensorData.m file.
+  - For displaying data from the last five hours, use the provided MATLAB code snippet corresponding to this requirement. Run the Display_5hours_SensorData.m file.
