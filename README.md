@@ -1,8 +1,8 @@
-#Cloud-Based IoT Environmental Monitoring System
+# Virtual Environmental IoT Monitoring System
 
 ## Project Overview
 
-This project aims to build a cloud-based IoT system that collects environmental information using virtual sensors and publishes this data using the MQTT protocol. The system is designed to:
+This project aims to build a virtual IoT system that collects environmental information using virtual sensors and publishes this data using the MQTT protocol. The system is designed to:
 
 - Collect data from a set of virtual sensors deployed to monitor environmental parameters such as temperature, humidity, and CO2 levels.
 - Display the latest sensor data values received from all sensors of a specified environmental station.
@@ -33,6 +33,7 @@ pip install paho-mqtt
 1. **ThingSpeak Setup**:
    - Create a new channel in ThingSpeak.
    - Note your Channel ID and generate MQTT API keys for publishing and reading data.
+   - Create a new MQTT Device and add the authorized channel to the device
 
 2. **Python Script Configuration**:
    - Replace the placeholders in the Python script (`channel_id`, `mqtt_host`, `mqtt_clientid`, `mqtt_username`, `mqtt_password`) with your ThingSpeak channel details and credentials.
@@ -52,6 +53,6 @@ python path/to/your_script.py
 
 ### Data Analysis and Display
 
-- Open MATLAB and run the provided scripts to analyze and visualize the data collected from ThingSpeak:
+- Open Matlab Analysis for the channel on ThingSpeak and run the provided scripts to analyze and visualize the data collected from ThingSpeak:
   - For displaying the latest data values, use the relevant section of the MATLAB code.
   - For displaying data from the last five hours, use the provided MATLAB code snippet corresponding to this requirement.
